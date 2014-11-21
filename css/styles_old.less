@@ -1,0 +1,173 @@
+/* --------------------------------- Standard Elements --------------------------------- */
+
+@font-face {
+  font-family: MyriadProLight;
+  src: url("../fonts/MyriadPro-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MyriadProRegular;
+  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: MyriadProSemibold;
+  src: url("../fonts/MyriadPro-Semibold.otf") format("opentype");
+}
+
+
+.container-fluid {
+  max-width: 960px;
+}
+
+.navbar-collapse {
+  padding: 0px;	
+}
+
+.navbar {
+  background: #122454;
+  height: 107px;	
+}
+
+.navbar-header {
+  margin-top: 18px;	
+}
+
+.navbar-brand {
+  width: 200px;	
+}
+
+.header_toplinks {
+  float: right;
+  margin-top: 20px;
+  height: 40px;
+  	a {
+	  background: #4aa52c;
+	  color: #ffffff;
+	  float: left;
+	  width: 155px;
+	  font-size: 0.9em;
+	  font-family: MyriadProLight;
+	  margin-left: 7px;
+	  padding: 6px 0px 4px 0px;
+	  text-align: center;
+	  text-decoration: none;
+	  line-height: 1em;
+	}
+	a:hover {
+	  color: #4aa52c;
+	  background: #ffffff;
+	}
+}
+
+.navbar-default {
+  .navbar-nav {
+	margin-top: -5px;
+	height: 50px;
+    font-family: MyriadProLight;
+      li {
+		color: #ffffff;
+	      a {
+	   	    color: #ffffff;
+	      }
+		  a:hover {
+		    color: #679ed0;
+		  }
+        }
+	  .open  {
+		  a {
+			color: #000000;
+		  }
+		}
+      }
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background: url(../images/nav_arrow.png) no-repeat scroll center bottom rgba(0, 0, 0, 0)!important;
+  color: #679ed0!important;
+  height: 50px;
+}
+
+.dropdown-menu {
+  li {
+	a {
+	  color: #00000!important;	
+	}
+  }
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+
+/* --------------------------------- Mobile Styles - up to 320px wide --------------------------------- */
+
+
+
+/* --------------------------------- Minimum width of 321 pixels. ---------------------------------- */
+@media all and (min-width: 321px) {
+	
+}
+
+
+
+
+/* --------------------------------- Minimum width of 480 pixels. ---------------------------------- */
+@media (min-width: 480px) {
+	
+}
+
+
+
+
+/* --------------------------------- Minimum width of 768 pixels. ---------------------------------- */
+@media (min-width: 768px) {
+	
+}
+
+
+
+/* --------------------------------- Minimum width of 960 pixels. ---------------------------------- */
+@media only screen and (min-width: 960px) {
+
+.navbar-brand {
+  width: 250px;	
+}
+
+
+
+	
+}

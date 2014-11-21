@@ -1,0 +1,1 @@
+<a class="share_panel" href="#">SHARE<span><img src="images/icon_share.png" class="img-responsive" alt="share"></span></a>

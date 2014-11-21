@@ -1,0 +1,592 @@
+/* --------------------------------- Standard Elements --------------------------------- */
+
+@font-face {
+  font-family: MyriadProLight;
+  src: url("../fonts/MyriadPro-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MyriadProRegular;
+  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: MyriadProSemibold;
+  src: url("../fonts/MyriadPro-Semibold.otf") format("opentype");
+}
+
+p {
+  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+.home_content {
+  background: #f2f2f2;	
+}
+
+.thumbnail {
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  .caption {
+    padding: 0px;
+  }
+}
+
+.btn-primary {
+  width: 100%;
+  border-radius: 0px;
+  border: 1px solid #122454;
+  background: #122454;
+  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.btn-primary:hover {
+  background: #ffffff;
+  color: #122454;
+}
+
+
+/* --------------------------------- Mobile Styles - up to 320px wide --------------------------------- */
+
+.navbar-brand {
+  width: 200px;
+  margin-top: 5px;	
+}
+
+.navbar-header {
+  height: 70px;	
+}
+
+.navbar {
+  background: #122454;
+  min-height: 65px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: 0px;	
+}
+
+.navbar-default {
+.navbar-nav {
+  padding: 0px 25px;
+  li {
+	  font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	a {
+	  	padding: 7px 0px;
+		color: #000000;
+		line-height: 1em;
+	}
+  }
+}
+}
+
+.container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;	
+}
+
+.navbar-default {
+  .navbar-toggle {
+    margin-top: 27px;
+    border: 0px;
+    width: 65px;
+    border-radius: 0px;
+    color: #ffffff;
+    padding: 0px;
+      .navbar_toggle_text { 
+	    float: left;
+		line-height: 1em;
+		font-size: 0.9em;	
+	  }
+      .icon-bar {
+	    height: 3px;
+	    background-color: #ffffff;
+	    border-radius: 0px;
+	    float: right;
+	  }
+  }
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 2px;	
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+      background: none;	
+}
+
+#bs-example-navbar-collapse-1 {
+  background: #ffffff;
+  margin: 0px -25px;	
+}
+
+.cta_button_array_mobile {
+  ul {
+    list-style-type: none;
+	padding: 0px 10px;
+	margin-top: 15px;
+	  li {
+		  font-size: 0.9em;
+		  margin-bottom: 6px;
+		  text-align: center;
+		  display: block;
+		  font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    a {
+			  color: #ffffff;
+			  display: block;
+			  text-decoration: none;
+			  padding: 8px 0px 6px 0px;	
+			}
+	  }
+	  li:nth-child(1) {
+		  a {
+		    background-color: #ac1e8b;
+		  }
+		  a:hover {
+			background-color: #eeeeee;
+			color: #ac1e8b;
+		  }
+	  }
+	  li:nth-child(2) {
+		  a {
+		    background-color: #f58026;
+		  }
+		  a:hover {
+			background-color: #eeeeee;
+			color: #f58026;
+		  }
+	  }
+	  li:nth-child(3) {
+		  a {
+		    background-color: #24295f;
+		  }
+		  a:hover {
+			background-color: #eeeeee;
+			color: #24295f;
+		  }
+	  }
+	  li:nth-child(4) {
+		  a {
+		    background-color: #49a42b;
+		  }
+		  a:hover {
+			background-color: #eeeeee;
+			color: #49a42b;
+		  }
+	  }
+	}  
+}
+
+
+
+
+/* --------------------------------- Minimum width of 321 pixels. ---------------------------------- */
+@media all and (min-width: 321px) {
+	
+
+	
+}
+
+
+
+
+/* --------------------------------- Minimum width of 480 pixels. ---------------------------------- */
+@media (min-width: 480px) {
+	
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;	
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 70px;
+  left: 90px;
+  right: inherit;	
+  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: none;
+  font-size: 2em;
+  max-width: 250px;
+  text-align: left;
+  line-height: 1.2em;
+}
+
+
+}
+
+
+
+
+/* --------------------------------- Minimum width of 768 pixels. ---------------------------------- */
+@media (min-width: 768px) {
+
+
+.navbar {
+  height: 107px;	
+}
+
+.navbar-brand {
+  width: 250px;
+  margin-top: 0px;
+}
+
+.navbar-header {
+  height: auto;	
+}
+
+.navbar-collapse {
+  padding-right: 0px; 	
+}
+
+#bs-example-navbar-collapse-1 {
+  background: #122454;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header_toplinks {
+  float: right;
+  margin-top: 20px;
+  height: 40px;
+  	a {
+	  background: #4aa52c;
+	  color: #ffffff;
+	  float: left;
+	  width: 155px;
+	  font-size: 0.9em;
+	  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  margin-left: 7px;
+	  padding: 6px 0px 4px 0px;
+	  text-align: center;
+	  text-decoration: none;
+	  line-height: 1em;
+	}
+	a:hover {
+	  color: #4aa52c;
+	  background: #ffffff;
+	}
+}
+
+.navbar-default {
+  .navbar-nav {
+	margin-top: -3px;
+	margin-right: -15px;
+	height: 50px;
+	padding: 0px;
+      li {
+		font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #ffffff;
+	      a {
+	   	    color: #ffffff;
+			font-size: 1.1em;
+			padding: 15px 18px;
+	      }
+		  a:hover {
+		    color: #679ed0!important;
+		  }
+		  a:focus {
+			color: #679ed0!important; 
+		  }
+        }
+      }
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background: url(../images/nav_arrow.png) no-repeat scroll center bottom rgba(0, 0, 0, 0)!important;
+  color: #679ed0!important;
+  height: 50px;
+}
+
+.dropdown-menu {
+  min-height: 160px;
+  background: #e5e5e5;
+  padding: 15px 20px;
+  float: right;
+  z-index: 1000;
+  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 0px;
+  border: 0px;
+  box-shadow: none;
+    ul {
+	  list-style-type: none;
+	  padding-left: 0px;
+	  float: left;
+	    li {
+          a {
+			color: #000000;
+			line-height: 1.6em;
+			  span.glyphicon {
+                font-size: 0.8em;
+				margin-left: 5px;
+				color: #aaaaaa;
+              }
+		  }
+	    }
+	  }
+}
+
+#submenu1 {
+  width: 630px;	
+  left: 0;
+  margin-left: -30px;
+}
+
+#submenu2 {
+  width: 545px;	
+}
+
+#submenu4 {
+  width: 480px;	
+}
+
+#submenu5 {
+  width: 300px;	
+}
+
+.innermenu_container {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  font-size: 0.8em;	
+}
+
+.view_demo_box {
+  padding: 10px 25px;
+  background: #ffffff;
+  float: right;
+  width: 240px;
+  min-height: 170px;
+    a {
+	  width: 100%;
+	  float: left;
+	  font-size: 1.2em;
+	    span {
+		  width: 27px;
+		  height: 20px;
+		  float: left;
+		  margin-right: 10px;
+		}
+	}
+	.view_demo_image {
+	  margin-top: 15px;
+	}
+}
+
+.nav_purple_box {
+  padding: 10px;
+  width: 240px;
+  min-height: 160px;
+  float: right;
+  background: #ab268b;
+  color: #ffffff;
+    .purple_box_icon {
+	  float: left;
+	  margin-right: 5px;
+	}
+    h3 {
+	  margin: 0px 0px 8px 0px;
+	  width: 100%;
+	  padding-bottom: 10px;
+	  border-bottom: 1px solid #ffffff;
+	  font-size: 1.2em;
+	}
+	p {
+	  font-size: 0.9em;
+	  line-height: 1.2em;	
+	}
+	ul {
+      width: 100%;
+	  margin-bottom: 0px;
+	  li {
+		width: 100%;
+		min-height: 17px;
+		a {
+		  color: #ffffff;
+		  background: url(../images/nav_contact_link_arrow.gif) top right no-repeat;
+		  width: 100%;
+		  padding-right: 20px;
+		  display: block;
+		  	span {
+			  float: right;	
+		      padding: 0px 5px;
+		      color: #000000;
+			  font-size: 0.7em;
+			  line-height: 17px;
+			  background: #ffffff;
+			  min-height: 17px;
+			}
+		}
+	  }
+	}
+	form {
+	  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  ul {
+		li {
+		  label {
+			width: 50%;
+			padding-top: 3px; 
+		  }
+		  input {
+			width: 50%;
+			color: #000000;
+			line-height: 1em;
+			float: right; 
+			padding-top: 3px;
+		  }
+		}
+	  }
+	}
+	.submit_button {
+	  width: 25%;
+	  min-height: 20px;
+	  margin-top: 3px;
+	}
+}
+
+
+.cta_button_array {
+  z-index: 500;
+  position: absolute;
+  width: 96%;
+  margin-top: 15px;
+    ul {
+	  list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+	  height: 40px;
+        li {
+		  text-align: center;
+		  float: left;
+		  height: 40px;
+            a {
+	          display: block;
+			  color: #ffffff;
+			  padding: 10px 0px;
+			  text-decoration: none;
+	        }
+	    }
+		li:nth-child(1) {
+	      width: 23.5%;
+		  margin: 0px 2% 0px 0px;
+		    a {
+		      background: #ac1e8b;
+			}
+			a:hover {
+			  background: #ffffff;
+			  color: #ac1e8b;
+			}
+		}
+		li:nth-child(2) {
+	      width: 23.5%;
+		  margin: 0px 2% 0px 0px;
+		    a {
+		      background: #f58026;
+			}
+			a:hover {
+			  background: #ffffff;
+			  color: #f58026;
+			}
+		}
+		li:nth-child(3) {
+	      width: 23.5%;
+		  margin: 0px 2% 0px 0px;
+		    a {
+		      background: #24295f;
+			}
+			a:hover {
+			  background: #ffffff;
+			  color: #24295f;
+			}
+		}
+		li:nth-child(4) {
+	      width: 23.5%;
+		  margin: 0px;
+		    a {
+		      background: #49a42b;
+			}
+			a:hover {
+			  background: #ffffff;
+			  color: #49a42b;
+			}
+		}
+	}
+}
+
+.carousel {
+  width: 100%;
+  max-height: 400px;	
+}
+
+.carousel-indicators {
+  margin-left: 0px;
+  left: inherit;
+  width: inherit;	
+}
+
+.carousel-inner {
+  max-height: 400px;	
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 70px;
+  left: inherit;
+  right: inherit;	
+  font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: none;
+  font-size: 2em;
+  max-width: 250px;
+  text-align: left;
+  line-height: 1.2em;
+  z-index: 0;
+}
+
+.narrow_centred_copy {
+  width: 65%;
+  margin: 35px auto;
+  text-align: center;
+    .intro_para {
+	  font-size: 1.6em;	
+	  line-height: 1.2em;
+	  margin-bottom: 5px;
+	}
+}
+
+
+
+	
+}
+
+
+
+/* --------------------------------- Minimum width of 960 pixels. ---------------------------------- */
+@media only screen and (min-width: 960px) {
+
+
+
+
+.container-fluid {
+  max-width: 960px;
+}
+
+.navbar-collapse {
+  padding: 0px;	
+}
+
+
+.navbar-header {
+  margin-top: 18px;	
+}
+
+.cta_button_array {
+  width: 930px;	
+}
+
+
+
+
+
+	
+}
