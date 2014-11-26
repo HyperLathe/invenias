@@ -47,8 +47,10 @@ $('.dropdown-toggle').on('click', function(){
 
 
 <!-- script to close the mega menu when clicked outside -->
+
+
 <script>
-$(document).bind( "mouseup touchend", function(){
+$(document).bind( "mouseup", function(e){
     var container = $('.submenu_container');
     if (!container.is(e.target)
         && container.has(e.target).length === 0)
@@ -58,6 +60,8 @@ $(document).bind( "mouseup touchend", function(){
     }
 });
 </script>
+
+
 
 <!-- To trigger up/down arrows on the collapsible accordions -->
 

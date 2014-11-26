@@ -28,24 +28,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="images/slide_01.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="hidden-sm hidden-xs">
-      <img src="images/slide_01_tablet.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="hidden-md hidden-lg">
+      <img src="images/slide_01.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="desktop_hero_slide">
+      <img src="images/slide_01_tablet.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="tablet_hero_slide">
+      <img src="images/slide_01_mobile.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="mobile_hero_slide">
       <div class="container-fluid">
-        <div class="carousel-caption hidden-xs">Powerful and easy to use executive search software delivered within Outlook</div>
+        <div class="carousel-caption hidden-xs">Powerful and easy to use executive search software delivered inside Outlook</div>
       </div>
     </div>
     <div class="item">
-      <img src="images/slide_01.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="hidden-sm hidden-xs">
-      <img src="images/slide_01_tablet.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="hidden-md hidden-lg">
+      <img src="images/slide_02.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="desktop_hero_slide">
+      <img src="images/slide_02_tablet.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="tablet_hero_slide">
+      <img src="images/slide_02_mobile.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="mobile_hero_slide">
       <div class="container-fluid">
-        <div class="carousel-caption hidden-xs">Powerful and easy to use executive search software delivered within Outlook</div>
+        <div class="carousel-caption hidden-xs">Invenias...Discover... Better delivery<br>Better relationships<br>Better results</div>
       </div>
     </div>
     <div class="item">
-      <img src="images/slide_01.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="hidden-sm hidden-xs">
-      <img src="images/slide_01_tablet.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="hidden-md hidden-lg">
+      <img src="images/slide_03.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="desktop_hero_slide">
+      <img src="images/slide_03_tablet.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="tablet_hero_slide">
+      <img src="images/slide_03_mobile.jpg" alt="Powerful and easy to use executive search software delivered within Outlook" class="mobile_hero_slide">
       <div class="container-fluid">
-        <div class="carousel-caption hidden-xs">Powerful and easy to use executive search software delivered within Outlook</div>
+        <div class="carousel-caption hidden-xs">Managed in the Cloud, delivered on your desktop, available on your mobile</div>
       </div>
     </div>
   </div>
@@ -75,7 +78,7 @@
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3">
         <div class="thumbnail">
-          <a href="contact.php"><img src="images/home_feature2.gif" class="img-responsive" alt="Global Locations">
+          <a href="customers.php"><img src="images/home_feature2.gif" class="img-responsive" alt="Global Locations">
           <div class="caption"><div class="btn btn-primary" role="button">GLOBAL LOCATIONS</div></div></a>
         </div>
       </div>
@@ -92,37 +95,17 @@
             <img src="images/slides/slide_normanbroadbent.gif" class="img-responsive" alt="Norman Broadbent">
             <img src="images/slides/slide_sheffieldhaworth.gif" class="img-responsive" alt="Sheffield Haworth">
             <img src="images/slides/slide_mulsanne.gif" class="img-responsive" alt="Mulsanne">
-            <img src="images/slides/slide_actalent.gif" class="img-responsive" alt="Actalent">
             <img src="images/slides/slide_allenaustin.gif" class="img-responsive" alt="Allen Austin">
-            <img src="images/slides/slide_arista.gif" class="img-responsive" alt="Arista">
-            <img src="images/slides/slide_beaumont.gif" class="img-responsive" alt="Beaumont">
-            <img src="images/slides/slide_bishopsgate.gif" class="img-responsive" alt="Bishopsgate">
-            <img src="images/slides/slide_cason.gif" class="img-responsive" alt="Cason">
-            <img src="images/slides/slide_connected.gif" class="img-responsive" alt="Connected">
-            <img src="images/slides/slide_cornerstone.gif" class="img-responsive" alt="Cornerstone">
             <img src="images/slides/slide_daubenspeck.gif" class="img-responsive" alt="Daubenspeck">
             <img src="images/slides/slide_ds.gif" class="img-responsive" alt="DS">
-            <img src="images/slides/slide_eatonsaks.gif" class="img-responsive" alt="Eaton Saks">
-            <img src="images/slides/slide_ecs.gif" class="img-responsive" alt="ECS">
             <img src="images/slides/slide_gtsearch.gif" class="img-responsive" alt="GT Search">
             <img src="images/slides/slide_healyhunt.gif" class="img-responsive" alt="Healy Hunt">
             <img src="images/slides/slide_highfield.gif" class="img-responsive" alt="Highfield">
-            <img src="images/slides/slide_kerridge.gif" class="img-responsive" alt="Kerridge">
-            <img src="images/slides/slide_kleboejardine.gif" class="img-responsive" alt="Kleboe Jardine">
-            <img src="images/slides/slide_nastrac.gif" class="img-responsive" alt="Nastrac">
-            <img src="images/slides/slide_odgersberndtson.gif" class="img-responsive" alt="Odgers Berndtson">
-            <img src="images/slides/slide_oval.gif" class="img-responsive" alt="Oval">
-            <img src="images/slides/slide_paddingtonpartners.gif" class="img-responsive" alt="Paddington Partners">
-            <img src="images/slides/slide_placingpeople.gif" class="img-responsive" alt="Placing People">
-            <img src="images/slides/slide_profile.gif" class="img-responsive" alt="Profile">
             <img src="images/slides/slide_rpi.gif" class="img-responsive" alt="RPI">
-            <img src="images/slides/slide_skillsearch.gif" class="img-responsive" alt="Skillsearch">
             <img src="images/slides/slide_talenses.gif" class="img-responsive" alt="Talenses">
-            <img src="images/slides/slide_tesla.gif" class="img-responsive" alt="Tesla">
-            <img src="images/slides/slide_themarketingacademy.gif" class="img-responsive" alt="The Marketing Academy">
-            <img src="images/slides/slide_up.gif" class="img-responsive" alt="Up">
-            <img src="images/slides/slide_westcott.gif" class="img-responsive" alt="Westcott">
-            <img src="images/slides/slide_wiltonbain.gif" class="img-responsive" alt="Wilton Bain">
+            <img src="images/slides/slide_mccracken.gif" class="img-responsive" alt="McCracken">
+            <img src="images/slides/slide_sportsrecruitment.gif" class="img-responsive" alt="Sports Recruitment International">
+            <img src="images/slides/slide_emerald.gif" class="img-responsive" alt="Emerald">
           </div>
           <div class="caption"><div class="btn btn-primary" role="button">CUSTOMER CASE STUDIES</div></div></a>
         </div>

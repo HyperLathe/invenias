@@ -30,7 +30,7 @@
            </a>
         </div>
         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
+          <div class="panel-body panel_narrow_para">
           <div class="panel_content_image"><img src="images/windows_pcs.jpg" alt="Windows" class="img-responsive"></div>
             <p>The Invenias windows desktop runs completely inside Outlook and is the primary client device for Invenias users.</p>
             <p>The desktop app is easy to download and install from the Invenias Cloud, where users with Admin rights can also designate other users for setup.</p>
@@ -48,7 +48,7 @@
            </a>
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="panel-body">
+          <div class="panel-body panel_narrow_para">
           <div class="panel_content_image"><img src="images/mobile_apps.jpg" alt="Mobile Apps" class="img-responsive"></div>
             <p>Invenias is available on all four major mobile platforms, so that you can access and update your database even when you are out of the office using your iPhone, iPad, Android, Windows Phone or Blackberry. The app allows Invenias users to access their Assignment, Company and People records on the go.</p>
             <p>Invenias v.2.1 for iPhone and iPad app is available on the App Store and runs on any device with iOS 7 and above. Invenias v1.0 for Android is available on Google Play and is compatible with Android 4.1 and above.</p>
@@ -67,7 +67,7 @@
            </a>
         </div>
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="panel-body">
+          <div class="panel-body panel_narrow_para">
           <div class="panel_content_image"><img src="images/virtual_desktops.jpg" alt="Mobile Apps" class="img-responsive"></div>
             <p>Many Invenias customers have chosen to adopt a windows desktop strategy based on Virtual Desktop Infrastructure typically provided from a Desktop as a Service (DaaS) provider.</p>
             <p>Invenias supports the deployments of the Invenias Windows Desktop Client under VMware, Citrix and Microsoft technologies.</p>
@@ -84,7 +84,9 @@
            </a>
         </div>
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-          <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          <div class="panel-body">
+            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+          </div>
         </div>
       </div>
     </div>

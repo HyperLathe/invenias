@@ -16,7 +16,7 @@
   
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="col-xs-12 col-sm-7 col-md-7">
       <h2>Product</h2>
       <p>Invenias is the world’s fastest growing provider of software solutions to the executive search and strategic recruitment sector.</p>
       <p>We enable our customers to deliver search assignments more effectively, build stronger relationships with their clients and candidates, and transform the productivity of their operations. Our passion for creating powerful, yet easy-touse software has revolutionized the experience and expectations of executive search and recruitment professionals.</p>
@@ -24,7 +24,7 @@
       <p>All your devices and apps connect to the Invenias Private Cloud, where your data is managed and protected within our enterprise grade infrastructure, removing IT complexity, risk and cost from your business.</p>
       <p><a href="#">Review our list of software features for more information.</a></p>
     </div>
-    <div class="col-xs-12 col-sm-2 col-md-2 hidden-xs">
+    <div class="col-xs-12 col-sm-1 col-md-1 hidden-xs">
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4">
       <?php include($DOCUMENT_ROOT . "./includes/sidebox_viewdemo.php"); ?>

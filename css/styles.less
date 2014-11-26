@@ -16,7 +16,6 @@
   src: url("../fonts/MyriadPro-Semibold.otf") format("opentype");
 }
 
-
 h2 {
   font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 20px;
@@ -37,6 +36,19 @@ p {
 	  font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  color: #0d5eb9;
 	}
+}
+
+.lead {
+  font-size: 1.2em;
+  margin-bottom: 30px;	
+}
+
+.customer_intropara {
+  color: #0e5ec7;
+  font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 90%;
+  font-size: 1.1em;
+  line-height: 1.2em;
 }
 
 .right_gutter_fix {
@@ -203,6 +215,8 @@ p {
 	  td {
 		  float: left;
 		  margin-right: 10px;
+		  width: 100%;
+		  font-size: 1.2em;
 	  }
 	}
 }
@@ -218,9 +232,6 @@ p {
 		  margin: 0px;
 		  color: #004a97;
 		  font-size: 1em;
-		}
-		p {
-		  font-size: 0.8em;
 		}
     }
     .press_release_image {
@@ -352,6 +363,19 @@ p {
   background: #ffffff;
   margin: 0px -25px;	
 }
+
+.mobile_hero_slide {
+  display: block!important;	
+}
+
+.tablet_hero_slide {
+  display: none!important;	
+}
+
+.desktop_hero_slide {
+  display: none!important;	
+}
+
 
 .cta_button_array_mobile {
   ul {
@@ -666,6 +690,9 @@ blockquote {
 		 margin-bottom: 40px;
 	  }
   }
+  .panel_narrow_para p {
+    width: 70%;  
+  }
 }
 
 .share_panel {
@@ -735,7 +762,6 @@ blockquote {
 @media all and (min-width: 321px) {
 	
 
-	
 }
 
 
@@ -755,6 +781,8 @@ blockquote {
   margin: 0px -15px;
 }
 
+
+
 .carousel-caption {
   position: absolute;
   top: 70px;
@@ -763,7 +791,7 @@ blockquote {
   font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: none;
   font-size: 2em;
-  max-width: 250px;
+  max-width: 270px;
   text-align: left;
   line-height: 1.2em;
 }
@@ -818,6 +846,8 @@ blockquote {
 	  td {
 		  float: none;
 		  margin-right: 0px;
+		  width: auto;
+		  font-size: 1em;
 	  }
 	}
 }
@@ -864,6 +894,15 @@ h2 {
 #bs-example-navbar-collapse-1 {
   background: #122454;
   margin: 0px;
+}
+
+
+.mobile_hero_slide {
+  display: none!important;	
+}
+
+.tablet_hero_slide {
+  display: block!important;	
 }
 
 .header_toplinks {
@@ -1217,6 +1256,13 @@ h2 {
   width: 960px;	
 }
 
+.tablet_hero_slide {
+  display: none!important;	
+}
+
+.desktop_hero_slide {
+  display: block!important;	
+}
 
 .container-fluid {
   max-width: 960px;
@@ -1229,6 +1275,10 @@ h2 {
 
 .navbar-header {
   margin-top: 18px;	
+}
+
+.tablet_hero_slide {
+  display: none;	
 }
 
 .mega_menu {

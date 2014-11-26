@@ -9,11 +9,16 @@
 
 <body>
 <?php include($DOCUMENT_ROOT . "./includes/header.php"); ?>
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-7 col-md-7">
       <h2>Training</h2>
-      <p>Invenias offers a range of training courses delivered online or onsite by Instructors who have a wealth of search and recruitment experience along with their in-depth knowledge of Invenias.</p>
+      <p class="lead">Invenias offers a range of training courses delivered online or onsite by Instructors who have a wealth of search and recruitment experience along with their in-depth knowledge of Invenias.</p>
       <h4>Private Courses</h4>
       <p>Private Courses can either follow the same training curriculum as our public courses or be tailored to your needs. They can be delivered online, onsite at your offices, or at an Invenias training center.</p>
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -84,7 +89,7 @@
           <tbody>
             <tr>
               <td>Wednesday 26th November</td>
-              <td>1.00pm - 4.00pm SGT</td>
+              <td>1.00pm - 4.00pm SGT <a tabindex="0" data-toggle="popover" title="Global Times" data-html="true" data-content="London: 1:00pm - 4:00pm<br>Paris: 2:00pm - 5:00pm<br>NYC: 8:00am - 11:am<br>LA: 5:00am - 8:00am<br>Sydney: 1:00am - 3:00am<br>Singapore: 11:00pm - 1:00am" data-trigger="focus"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></td>
               <td>Online Webinar - Asia Pacific</td>
               <td><a href="https://student.gototraining.com/r/1997649162466809600" target="_blank">Register</a></td>
             </tr>
@@ -123,7 +128,7 @@
             </tr>
             <tr>
               <td>Thursday 4th December</td>
-              <td>1.00pm - 5.00pm - GMT</td>
+              <td>1.00pm - 5.00pm - GMT </td>
               <td>Online Webinar - Europe</td>
               <td><a target="_blank" href="https://student.gototraining.com/r/1074107773646506240">Register</a></td>
             </tr>
@@ -260,6 +265,7 @@
     </div>
   </div>
 </div>
+
 <?php include($DOCUMENT_ROOT . "./includes/footer.php"); ?>
 </body>
 </html>

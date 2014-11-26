@@ -21,7 +21,7 @@
       <h2>Customers</h2>
     </div> 
     <div class="col-xs-12 col-sm-12 col-md-10">
-    <p class="addtopmargin_10 hidden-xs">Our customers include executive search and executive and strategic recruitment firms, in-house executive recruitment teams, and executive talent search organisations within Private Equity and Venture Capital Firms. Browse a selection of our customers from across the world.</p>
+    <p class="addtopmargin_10 hidden-xs customer_intropara">Our customers include executive search and executive and strategic recruitment firms, in-house executive recruitment teams, and executive talent search organisations within Private Equity and Venture Capital Firms. Browse a selection of our customers from across the world.</p>
     </div> 
   </div>
   <hr class="hidden-xs">

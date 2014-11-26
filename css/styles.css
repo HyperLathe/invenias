@@ -29,6 +29,17 @@ p a {
   font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #0d5eb9;
 }
+.lead {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.customer_intropara {
+  color: #0e5ec7;
+  font-family: MyriadProRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 90%;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
 .right_gutter_fix {
   padding-right: 15px;
 }
@@ -170,6 +181,8 @@ p a {
 .course_table tr td {
   float: left;
   margin-right: 10px;
+  width: 100%;
+  font-size: 1.2em;
 }
 .press_release_item {
   border-top: 1px solid #9f9f9f;
@@ -184,9 +197,6 @@ p a {
   margin: 0px;
   color: #004a97;
   font-size: 1em;
-}
-.press_release_item .press_release_copy p {
-  font-size: 0.8em;
 }
 .press_release_item .press_release_image {
   width: 25%;
@@ -297,6 +307,15 @@ p a {
 #bs-example-navbar-collapse-1 {
   background: #ffffff;
   margin: 0px -25px;
+}
+.mobile_hero_slide {
+  display: block!important;
+}
+.tablet_hero_slide {
+  display: none!important;
+}
+.desktop_hero_slide {
+  display: none!important;
 }
 .cta_button_array_mobile ul {
   list-style-type: none;
@@ -582,6 +601,9 @@ blockquote span {
   float: right;
   margin-bottom: 40px;
 }
+.panel-group .panel_narrow_para p {
+  width: 70%;
+}
 .share_panel {
   background: #0d5eb9;
   color: #ffffff;
@@ -658,7 +680,7 @@ blockquote span {
     font-family: MyriadProLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-shadow: none;
     font-size: 2em;
-    max-width: 250px;
+    max-width: 270px;
     text-align: left;
     line-height: 1.2em;
   }
@@ -701,6 +723,8 @@ blockquote span {
   .course_table tr td {
     float: none;
     margin-right: 0px;
+    width: auto;
+    font-size: 1em;
   }
 }
 /* --------------------------------- Minimum width of 768 pixels. ---------------------------------- */
@@ -731,6 +755,12 @@ blockquote span {
   #bs-example-navbar-collapse-1 {
     background: #122454;
     margin: 0px;
+  }
+  .mobile_hero_slide {
+    display: none!important;
+  }
+  .tablet_hero_slide {
+    display: block!important;
   }
   .header_toplinks {
     float: right;
@@ -1039,6 +1069,12 @@ blockquote span {
   .container {
     width: 960px;
   }
+  .tablet_hero_slide {
+    display: none!important;
+  }
+  .desktop_hero_slide {
+    display: block!important;
+  }
   .container-fluid {
     max-width: 960px;
   }
@@ -1047,6 +1083,9 @@ blockquote span {
   }
   .navbar-header {
     margin-top: 18px;
+  }
+  .tablet_hero_slide {
+    display: none;
   }
   .mega_menu {
     width: 930px;
