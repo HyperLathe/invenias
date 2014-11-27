@@ -89,7 +89,7 @@ $(function () {
           <tbody>
             <tr>
               <td>Wednesday 26th November</td>
-              <td>1.00pm - 4.00pm SGT <a tabindex="0" data-toggle="popover" title="Global Times" data-html="true" data-content="London: 1:00pm - 4:00pm<br>Paris: 2:00pm - 5:00pm<br>NYC: 8:00am - 11:am<br>LA: 5:00am - 8:00am<br>Sydney: 1:00am - 3:00am<br>Singapore: 11:00pm - 1:00am" data-trigger="focus"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></td>
+              <td>1.00pm - 4.00pm SGT&nbsp;&nbsp;<a tabindex="0" data-toggle="popover" title="Global Times" data-html="true" data-content="London: 1:00pm - 4:00pm<br>Paris: 2:00pm - 5:00pm<br>NYC: 8:00am - 11:am<br>LA: 5:00am - 8:00am<br>Sydney: 1:00am - 3:00am<br>Singapore: 11:00pm - 1:00am" data-trigger="focus">Time Zones</a></td>
               <td>Online Webinar - Asia Pacific</td>
               <td><a href="https://student.gototraining.com/r/1997649162466809600" target="_blank">Register</a></td>
             </tr>
